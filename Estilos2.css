@@ -1,0 +1,412 @@
+h1	{
+	text-decoration: underline;
+}
+
+h2 {
+	color: #ffe0ee;
+}
+
+/*.desarroladorWeb {
+	color: forestgreen;*/
+}
+
+#nombre {
+	color: limegreen;
+}
+
+div button {
+	color: white !important;
+}
+
+/*.degradado {
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,95,21,1) 47%, rgba(4,172,8,1) 85%);
+font-size:30 px;
+padding: 15px;
+border: 3px  solid lawngreen;
+}*/
+
+/*ul li.nav-item:first-child {
+	background-color: orangered;
+}*/
+
+/*ul li.nav-item:hover {
+	background-color: coral;
+}*/
+
+ul li.nav-item:last-child {
+	font-size: 20px;
+}
+
+/* aquí iría un comentario en CSS */ 
+
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+/*.degradado {
+	animation: rotate 5s linear infinite;
+}*/
+
+.alineacion {
+    display: flex; 
+    justify-content: center; 
+}
+
+.flotanteAzul{
+	margin:30px;
+	position:absolute;
+	padding:15px;
+	border-radius:20px;
+	background-color:#b02a37b5 !important; 
+}
+
+#logotipo {
+    filter:  brightness(0) saturate(100%) invert(28%) sepia(99%) saturate(3220%) hue-rotate(338deg) brightness(88%) contrast(104%);
+}
+
+a.nav-link {
+    color:white;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    transition: all .6s;
+}
+
+a.nav-link:hover{
+	color:white;
+	font-weight: 600;
+}
+
+a.nav-link::after{
+	content:'';
+	height:22px;
+	width: 2px ;
+	background: white;
+	display: block;
+	display: inline-flex;
+	position: relative;
+	left: 22px;
+	top:5px;
+}
+
+div#navbarSupportedContent {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fontTitle{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 3px;
+}
+
+.btn-style {
+    padding: 10px 40px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border: none;
+    background-color: #af5454;
+    border-radius: 20px;
+}
+
+.btn-style:hover {
+	background-color: #693333;
+	transition: all .6s;
+}
+
+.servicioTitle {
+    font-family: 'Montserrat';
+    font-size: 25px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #a24141;
+}
+
+.containerServicios {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.bloqueServicio {
+    padding: 35px 15px;
+    transition: all .6s;
+}
+
+.bloqueServicio:hover {
+    background-color: #ea3f4f80;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.46);
+    transition: all .6s;
+}
+
+i.bi.bi-code-square {
+    font-size: 35px;
+}
+
+i.bi.bi-window-fullscreen {
+    font-size: 35px;
+}
+
+i.bi.bi-hdd-stack {
+    font-size: 35px;
+}
+
+.bloqueServicio i:first-child {
+	color: #b02a37;
+
+}
+
+.backgroundSobreMi {
+	background-image: url(guitarsSobreMi.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.btn-sobreMi {
+	margin: 50px 0px 50px 0px;
+	background-color:#ffffff ;
+	color: #b02a37 !important;
+	border: none;
+	font.font-family: Montserrat;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 12px 120px;
+	border-radius: 50px;
+	box-shadow: 0px 0px 15px -1px rgba(255, 255, 255, 0.46);
+	transition: all .6s;
+}
+
+.btn-sobreMi:hover {
+background-color: #7e1e27db;
+	transition: all .6s;
+}
+
+.alineacionFormulario {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 650px;
+}
+
+label {
+	display: none;
+}
+
+input {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#servicio {
+	height: 150px;
+}
+
+#nombre {
+	border:2px solid #dd9d9d;
+	border-radius: 25px;
+	box-shadow: 0px 0px 15px -1px rgba(0 0 0 / 23%);
+
+} 
+
+
+#email {
+	border:2px solid #dd9d9d;
+	border-radius: 25px;
+	box-shadow: 0px 0px 15px -1px rgba(0 0 0 / 23%);
+
+}
+
+
+#servicio {
+	border:2px solid #dd9d9d;
+	border-radius: 25px;
+	box-shadow: 0px 0px 15px -1px rgba(0 0 0 / 23%);
+
+}
+
+input::placeholder {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    color: #bfc4c1c9 !important;
+}
+
+textarea::placeholder {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    color: #bfc4c1c9 !important;
+}
+
+input.btn.btn-primary {
+    border-radius: 25px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+} 
+
+button.btn.btn-outline-secondary.mb-5 {
+    color: #4b4a4a !important;
+}
+
+footer.bg-dark {
+    background-color: black !important;
+    padding: 85px 0px 65px 0px !important;
+}
+
+footer h6 {
+	font-family: 'Montserrat';
+	font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+footer p {
+	font-size: 12px;
+}
+
+.social {
+	display: flex;
+	justify-content: left !important;
+	margin-right: 25px;
+}
+
+.social i.bi {
+	margin-right: 25px;
+	font-size: 24px !important;
+}
+
+ul.flex-column li a {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    transition: all .6s;
+    text-decoration: none;
+}
+
+ul.flex-column li a:hover {
+	font-weight: bold ;
+	transition: all .6s;
+}
+
+td {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ 
+.backgroundBanner{
+	background-image: url("Banner2.webp");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	text-align: center;
+	height: 75vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.slider-conteiner{
+	width: 100%;
+	margin: 0 auto;
+	height: 75vh;
+	max-width: 100%;
+	border-radius: 0.5rem;
+	overflow: hidden;
+}
+/*overflow:hidden permite ocultar de acuerdo a los elementos que se presenten de forma duplicada, ignorarlos a nivel visual y ocultarlos entre el alto y ancho*/
+
+.slide{
+	width: 100%;
+	height: 100%;
+	place-items: center;
+	transition: all 0.25s ease-in-out;
+	text-align: center;
+
+}
+
+
+button.prevBtn{
+	border: none;
+	background: none;
+}
+
+button.prevBtn i{
+	font-size: 40px;
+	color: white;
+}
+
+button.nextBtn{
+	border: none;
+	background: none;
+}
+
+button.nextBtn i{
+	font-size: 40px;
+	color: white;
+}
+
+.btn-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	flex-wrap: nawrap;
+	position: relative;
+	top: -400px;
+	right: 50px;
+}
+
+.changecolor{
+	position: fixed;
+	bottom: 30px;
+	left: 20px;
+	display: flex;
+	flex-direction: column;
+	height: 50px;
+	width: 50px;
+	z-index: 100;
+}
+
+.changecolor i.bi.bi-toggle-off{
+	font-size: 50px;
+	color: darkred;
+	display: block;
+}
+
+.changecolor i.bi.bi-toggle-on{
+	font-size: 50px;
+	color: darkred;
+	display: none;
+}
